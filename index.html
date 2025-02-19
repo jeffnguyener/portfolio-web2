@@ -4,23 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+    />
     <link rel="icon" type="image/jpg" href="./images/JN-icon.jpg" />
     <title>JN Personal</title>
-
-    <!--FONT-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!--HEADER-->
     <header class="header">
       <a href="#" class="logo">Folio</a>
 
-      <img src="./images/menu-icon.png" alt="menu-icon" width="2.5%" />
+      <!-- <img src="./images/menu-icon.png" id="menu-icon" alt="menu-icon" width="2.5%" /> -->
+      <span class="material-symbols-outlined"> menu </span>
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -32,10 +29,10 @@
 
     <!--HOME SECTION-->
     <section class="home" id="home">
-      <div class="home-confident">
+      <div class="home-content">
         <h3>Hi,</h3>
         <h1>JN</h1>
-        <h3>And I'm a Fullstack Developer</h3>
+        <h3>And I'm a <span>Fullstack Developer</span></h3>
         <p>
           Bacon ipsum dolor amet ullamco fugiat jowl sint, frankfurter short
           loin dolore velit. Non ex lorem, consequat in ad chicken drumstick. In
@@ -58,7 +55,7 @@
         <a href="#" class="btn">Resume</a>
       </div>
       <div class="home-img">
-        <img src="./images/JN.png" alt="JN" width="10%" />
+        <img src="./images/JN.png" alt="JN" width="100%" />
       </div>
     </section>
 

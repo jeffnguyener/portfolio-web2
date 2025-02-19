@@ -8,7 +8,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Noto Sans Display", serif;
+    font-family: "Nunito", sans-serif;
 }
 
 :root {
@@ -59,4 +59,57 @@ section {
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
+    font-weight: 700;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: var(--text-color);
+}
+
+span.material-symbols-outlined {
+    font-size: 36px;
+    font-variation-settings: 'OPSZ'40;
+    color: var(--text-color);
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.home-img {
+    background-color: var(--main-color);
+    border-radius: 7rem;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    img {
+        margin-top: -2.5rem;
+    }
 }
