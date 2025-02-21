@@ -122,8 +122,8 @@ span {
 
     img {
         margin-top: -2.5rem;
-        animation: floatImage 4s ease-in-out;
-        animation-iteration-count: 3;
+        animation: floatImage 3s ease-in-out;
+        animation-iteration-count: 2;
     }
 }
 
