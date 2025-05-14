@@ -295,3 +295,26 @@ span {
     justify-content: center;
     width: 2.5rem;
 }
+
+.contact-content h3 {
+    font-size: 2.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.contact-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--snd-bg-color);
+}
+
+.footer-text {
+    font-size: 1.6rem;
+}
