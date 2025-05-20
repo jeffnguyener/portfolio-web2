@@ -250,6 +250,10 @@ span {
     display: flex;
 }
 
+.project-content {
+    margin-bottom: 3.5rem;
+}
+
 .project-content img {
     width: 100%;
     transition: .5s ease;
@@ -296,6 +300,10 @@ span {
     width: 2.5rem;
 }
 
+.contact-content h2 {
+    padding-bottom: 2.5rem;
+}
+
 .contact-content h3 {
     font-size: 2.6rem;
     margin: 2rem 0 3rem;
@@ -304,11 +312,6 @@ span {
 .contact {
     min-height: 38vh;
     padding: 10rem 9% 2rem;
-}
-
-.contact-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
 }
 
 .contact-content {
